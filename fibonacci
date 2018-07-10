@@ -1,0 +1,31 @@
+#include <stdio.h>
+struct fb series 
+{
+    int n;
+    char str1[20],str2[20];
+};
+struct fb series input_data()
+
+int main()
+{
+    struct fb series a;
+    printf("Enter the no. of sequence");
+    scanf("%d",&n);
+    printf("Enter the 1st string");
+    scanf("%s",str1[20]);
+    printf("Enter the second string");
+    scanf("%s",str2[20]);
+    return a;
+};
+      void output_data(fb series a)
+      {
+          printf("The sequence is %d"&n.a);
+          printf("The first string is %s"&str1.a);
+          printf("The second string is %s"&str2.a);
+      };
+
+{
+fb series a;
+a =input_data();
+output_data(a);
+}
