@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<math.h>
+struct point
+ {
+    float x;
+    float y;
+};
+int main()
+{
+struct point input_point()
+
+{
+    struct point p;
+    printf("enter x\n");
+    scanf("%f",&p.x);
+    printf("enter y\n");
+    scanf("%f",&p.y);
+    return p;
+}
+int output_point(struct point p)
+{
+  printf("x is %f and y is %f",p.x,p.y);
+}
+   struct point p;
+   p=input_point();
+   output_point(p);
+}
